@@ -5,13 +5,13 @@ var tabimage = (document.getElementById("listimage")).getElementsByTagName("img"
 let select = 0;// num image selectioner
 let antselect =0; // num ancienne image select
 let tmpchimg = 0; // delait de changement d'image
-let durdef = 500; // durrer defilement barre image
+let durdef = 20; // durrer defilement barre image
 var repeteur = setTimeout(majaffichage,0) //repeteur changement auto image
 var trans =2 ; // variable servant à definir aléatoirement les transitions
 var progress = 0;// temps cécouler depuis debut animation trans
  
 var tmpplein = 1000; //delait plein ecrant
-var vitplein = 50; //vitesse transition plein ecrant (%/sec)
+var vitplein = 1; //vitesse transition plein ecrant (%/sec)
 var tvolet = 17; // taille vollet (%)
 var povolet = 0 ;// position vollet (%)
  
