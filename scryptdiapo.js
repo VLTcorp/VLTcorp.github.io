@@ -11,7 +11,7 @@ var trans =2 ; // variable servant à definir aléatoirement les transitions
 var progress = 0;// temps cécouler depuis debut animation trans
  
 var tmpplein = 0; //delait plein ecrant
-var vitplein = 1; //vitesse transition plein ecrant (%/sec)
+var vitplein = 100; //vitesse transition plein ecrant (%/sec)
 var tvolet = 17; // taille vollet (%)
 var povolet = 0 ;// position vollet (%)
  
