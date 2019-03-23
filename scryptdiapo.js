@@ -416,4 +416,4 @@ function retplein(timestamp)
 
  
 
-//-------------Faculté des Sciences infermière , Université de Montreal et du monde 2019 all right reserved-----------------
+//-------------VLTcorp 2019 all right reserved-----------------
