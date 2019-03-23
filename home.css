@@ -1,0 +1,100 @@
+html
+{}
+
+widows
+{}
+
+body 
+{
+	height: 80%;	
+	width:80%;	
+	background-color: black;
+	overflow:hidden;
+}
+.cadre
+{
+	border:1px solid #111111 ;	
+	overflow:hidden;
+	position:absolute;
+	height:calc(100% - 1px);
+	width:calc(100% - 1px);
+	left:0% ;
+	top:0%;
+}
+
+.diapo
+{
+  position:absolute ; 
+  right:0% ;
+  top:0%; 
+  height:100% ; 
+  width:83% ;
+}
+.tabimage
+{
+	background-color: #222222;
+	width:17%;
+	top:0%;
+	height :100%;
+	overflow-y:scroll ;
+	position:absolute ;
+}
+.image
+{
+	position:absolute ; 
+	background-image: "";
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position:center;
+	background-color:#000000;
+	left:0% ;
+	top:0% ; 
+	height:100% ;
+	width:100%;
+	
+}
+
+.tabimage img
+{
+	display:block;
+	height: auto;
+	width: calc(100% - 10px);
+	border:2px solid #555555;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:2px;
+	margin-bottom:2px;
+	opacity:1;
+}
+.tabimage img:hover
+{
+	border:2px solid #557755;
+	opacity:0.9;
+}
+
+#selectimg
+{
+	display:block;
+	border:3px solid #05a6d5;
+	opacity:0.6;
+}
+
+::-webkit-scrollbar 
+{
+  width: 10px;
+}
+
+::-webkit-scrollbar-track 
+{
+  background: #303030; 
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: #505050; 
+}
+
+::-webkit-scrollbar-thumb:hover 
+{
+  background: #056565; 
+}
