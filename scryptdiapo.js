@@ -51,11 +51,11 @@ function majaffichage()//-------------------maj changement img
 
 	trans = parseInt(Math.random()*6); //valeur alléatoire transition
 									   //initialise animation transition
-		document.getElementById("animdiapo").style.left="" ;
-		document.getElementById("animdiapo").style.top="" ;
-		document.getElementById("animdiapo").style.opacity="" ;
-		document.getElementById("diapo").style.left="" ;
-		document.getElementById("diapo").style.top="" ;
+	document.getElementById("animdiapo").style.left="" ;
+	document.getElementById("animdiapo").style.top="" ;
+	document.getElementById("animdiapo").style.opacity="" ;
+	document.getElementById("diapo").style.left="" ;
+	document.getElementById("diapo").style.top="" ;
 
 	imafix = false;
 	requestAnimationFrame(etap); // appel animation barre de deffilement et transition   
@@ -115,7 +115,6 @@ function clicimage(n) //--------------- maj de l'image si click
 	select = n;           // maj image selectiné avec celle clické
 	if (imafix)
 	{
-		alert(imafix);
 		majaffichage();
 	}
 	else
