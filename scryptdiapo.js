@@ -4,14 +4,14 @@ var debdef = null;//reference temps defilement
 var tabimage = (document.getElementById("listimage")).getElementsByTagName("img") ;//image seletcioné
 let select = 0;// num image selectioner
 let antselect =0; // num ancienne image select
-let tmpchimg = 0; // delait de changement d'image
-let durdef = 0; // durrer defilement barre image
+let tmpchimg = 5000; // delait de changement d'image
+let durdef = 1000; // durrer defilement barre image
 var repeteur = setTimeout(majaffichage,0) //repeteur changement auto image
 var trans =2 ; // variable servant à definir aléatoirement les transitions
 var progress = 0;// temps cécouler depuis debut animation trans
  
-var tmpplein = 0; //delait plein ecrant
-var vitplein = 100; //vitesse transition plein ecrant (%/sec)
+var tmpplein = 8000; //delait plein ecrant
+var vitplein = 500; //vitesse transition plein ecrant (%/sec)
 var tvolet = 17; // taille vollet (%)
 var povolet = 0 ;// position vollet (%)
  
